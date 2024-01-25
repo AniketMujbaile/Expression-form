@@ -1,4 +1,51 @@
-.App {
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+/* Optional: Add some styling for better visibility of the form fields */
+
+.select-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-group select {
+  width: 30%;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group input {
+  width: 24%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
